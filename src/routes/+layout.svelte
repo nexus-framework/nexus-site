@@ -10,7 +10,8 @@
 <AppShell>
 	<AppBar>
 		<svelte:fragment slot="lead">
-			<a class="text-xl uppercase" href="/"><strong>Nexus Framework</strong></a>
+			<img src="logo.svg" alt="Nexus Framework Logo" width="25px" />
+			<a class="text-xl uppercase ml-2" href="/"><strong>Nexus Framework</strong></a>
 		</svelte:fragment>
 		<svelte:fragment slot="trail">
 			<LightSwitch />
