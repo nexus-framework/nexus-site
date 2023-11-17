@@ -1,7 +1,8 @@
 import { join } from 'path'
 import type { Config } from 'tailwindcss'
 import typography from '@tailwindcss/typography';
-import { skeleton } from '@skeletonlabs/tw-plugin'
+import { skeleton } from '@skeletonlabs/tw-plugin';
+import { nexusTheme } from './theme';
 
 export default {
 	darkMode: 'class',
@@ -13,12 +14,7 @@ export default {
 		typography,
 		skeleton({
 			themes: {
-				preset: [
-					{
-						name: 'wintry',
-						enhancements: true,
-					},
-				],
+				custom: [nexusTheme],
 			},
 		}),
 	],
