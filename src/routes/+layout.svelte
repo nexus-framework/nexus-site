@@ -3,6 +3,10 @@
 	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 </script>
 
+<svelte:head>
+	<title>Nexus Framework</title>
+</svelte:head>
+
 <AppShell>
 	<AppBar>
 		<svelte:fragment slot="lead">
