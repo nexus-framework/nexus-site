@@ -1,6 +1,8 @@
 <script lang="ts">
 	import '../app.postcss';
 	import { AppShell, AppBar, LightSwitch } from '@skeletonlabs/skeleton';
+	import mixpanel from 'mixpanel-browser';
+	mixpanel.init('fc9001a60051466419c5e0f4ab9533e0', { debug: true });
 </script>
 
 <svelte:head>
